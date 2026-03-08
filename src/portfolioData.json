@@ -1,0 +1,110 @@
+{
+  "profile": {
+    "name": "Afnan Javeed",
+    "title": "Software Engineer | Full-Stack & ML Specialist",
+    "tagline": "Building scalable enterprise solutions and clinically interpretable AI for a smarter tomorrow.",
+    "location": "Chennai, Tamil Nadu, India",
+    "email": "asjved.8385@gmail.com",
+    "phone": "(+91) 8148604385",
+    "website": "github.com/afnan-javeed",
+    "linkedin": "linkedin.com/in/afnan-javeed",
+    "about": "Software Engineer with a strong foundation in full-stack development and machine learning. Experienced in building enterprise-grade customer onboarding workflows and high-performance medical AI diagnostics. Adept at bridging the gap between robust backend architectures and data-driven intelligence, with a focus on transparency and clinical interpretability."
+  },
+  "education": [
+    {
+      "degree": "B.Tech. in Computer Science and Engineering",
+      "specialization": "Specialization in Artificial Intelligence",
+      "institution": "Vellore Institute of Technology",
+      "location": "Chennai, India",
+      "period": "2021 - 2025",
+      "grade": "CGPA: 8.95",
+      "thesis": "Multi-Task Graph Attention Network (GAT) for Clinically Interpretable Lesion Classification"
+    }
+  ],
+  "experience": [
+    {
+      "role": "Software Engineer",
+      "company": "Synechron Technologies",
+      "location": "Chennai, India",
+      "period": "June 2025 - Present",
+      "description": [
+        "Developing enterprise card application portals and customer onboarding workflows for the American Express account.",
+        "Implementing robust backend validation for customer data and optimizing RESTful endpoints for high-throughput processing.",
+        "Collaborating with senior architects to debug application flows and perform comprehensive API testing to reduce input-related errors."
+      ]
+    },
+    {
+      "role": "Machine Learning Intern",
+      "company": "C-DAC (Centre for Development of Advanced Computing)",
+      "location": "Chennai, India",
+      "period": "Dec 2024 - May 2025",
+      "description": [
+        "Developed an automated Medical X-ray Diagnostics Tool, improving precision and decision-making for healthcare professionals.",
+        "Engineered a high-performance data pipeline using PySpark for large-scale medical image analytics, mitigating data imbalance by 27%.",
+        "Integrated XAI frameworks (Grad-CAM) to provide clinical interpretability and achieved a 94% validation accuracy."
+      ]
+    },
+    {
+      "role": "SDE Intern",
+      "company": "ITJobxs",
+      "location": "Remote",
+      "period": "April 2024 - Nov 2024",
+      "description": [
+        "Engineered a multi-layered anti-spam system with PHP to validate 100+ domains and block automated bot registrations.",
+        "Developed secure backend modules using Java and JDBC, implementing Prepared Statements for all CRUD operations.",
+        "Designed a full-stack MERN-stack E-commerce platform and an interview-experience portal with integrated re-CAPTCHA security."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "Note-Minds: AI-Powered SaaS",
+      "tech": ["Next.js", "OpenAI API", "Tailwind CSS", "PostgreSQL"],
+      "description": "An AI-powered application that transforms PDFs into interactive knowledge hubs using LLMs for smart summarization and query-based note-taking."
+    },
+    {
+      "title": "Life Monitor",
+      "tech": ["Django", "JavaScript", "SQLite", "Analytics"],
+      "description": "A hybrid cross-platform application for habit tracking and task management, featuring a central dashboard with interactive data visualization charts."
+    },
+    {
+      "title": "BuyBuddy",
+      "tech": ["Spring Boot", "React.js", "MySQL", "Java"],
+      "description": "A comprehensive retail shopping application with secure user authentication, product management, and order tracking workflows."
+    }
+  ],
+  "skills": {
+    "Programming & Core": ["Java", "Python", "C++", "PHP", "Bash", "SQL", "Git"],
+    "Full-Stack Development": ["SpringBoot", "Spring Cloud", "Node.js", "React.js", "Next.js", "REST APIs", "SOAP", "MongoDB", "MySQL"],
+    "Data Science & ML": ["TensorFlow", "PyTorch", "PySpark", "Pandas", "NumPy", "Scikit-learn", "Kafka", "XAI (Grad-CAM)"],
+    "DevOps & Tools": ["Docker", "Jenkins", "GitHub Actions", "GitLab", "AWS", "Agile (Scrum)"]
+  },
+  "publications": [
+    {
+      "title": "Multi-Task Graph Attention Network (GAT) for Clinically Interpretable Lesion Classification",
+      "journal": "IEEE Publication",
+      "year": "2025",
+      "authors": "Afnan Javeed, et al."
+    }
+  ],
+  "certifications": [
+    "AWS Certified Developer Associate",
+    "AWS Certified Cloud Practitioner",
+    "Oracle Certified Professional: Java SE 11 Developer",
+    "PCAP - Certified Associate Python Programmer"
+  ],
+  "awards": [
+    {
+      "title": "Finalist - BITS Pilani Open Challenge",
+      "organization": "BITS Pilani",
+      "date": "Jan 2025",
+      "desc": "Ranked 5th nationwide among 2,500+ participants in a prestigious open-challenge hackathon."
+    },
+    {
+      "title": "Academic Excellence - Class XII",
+      "organization": "GEMS OOIS, Dubai",
+      "date": "2021",
+      "desc": "Achieved a score of 95.2% in CBSE Board Examinations."
+    }
+  ]
+}
