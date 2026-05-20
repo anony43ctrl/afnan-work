@@ -32,7 +32,7 @@ import {
 // --- EMBEDDED DATA ---
 const portfolioData = {
   "profile": {
-    "name": "Afnan Sheik Javeed",
+    "name": "Afnan Shaik Javeed",
     "title": "Software Engineer | Full-Stack & ML Specialist",
     "tagline": "Building scalable enterprise solutions and clinically interpretable AI for a smarter tomorrow.",
     "location": "Chennai, Tamil Nadu, India",
@@ -125,7 +125,7 @@ const portfolioData = {
       "title": "Multi-Task Graph Attention Network (GAT) with Swin Transformer Embeddings",
       "journal": "IEEE Publication",
       "year": "2025",
-      "authors": "Afnan Sheik Javeed, et al."
+      "authors": "Afnan Shaik Javeed, et al."
     }
   ],
   "awards": [
@@ -788,7 +788,7 @@ const App = () => {
         <div className="max-w-7xl mx-auto px-6 relative z-10">
           <div className="flex flex-col md:flex-row justify-between items-center gap-8">
             <div className="text-center md:text-left space-y-2">
-              <h3 className="font-bold text-2xl tracking-tight text-slate-900 dark:text-white">Afnan Sheik Javeed</h3>
+              <h3 className="font-bold text-2xl tracking-tight text-slate-900 dark:text-white">Afnan Shaik Javeed</h3>
               <p className="text-slate-500 dark:text-slate-400 text-sm max-w-xs leading-relaxed">
                 Engineering software with a focus on enterprise scalability and clinical AI transparency.
               </p>
@@ -812,7 +812,7 @@ const App = () => {
           </div>
           
           <div className="mt-12 pt-8 border-t border-slate-100 dark:border-slate-900 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-slate-400">
-            <p>© {new Date().getFullYear()} Afnan Sheik Javeed. All Rights Reserved.</p>
+            <p>© {new Date().getFullYear()} Afnan Shaik Javeed. All Rights Reserved.</p>
             <p className="flex items-center gap-2">
               Designed with <span className="text-red-500">♥</span> and React
             </p>
