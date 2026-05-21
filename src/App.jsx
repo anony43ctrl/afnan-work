@@ -102,7 +102,7 @@ const portfolioData = {
       "title": "Note-Minds: AI-Powered SaaS",
       "tech": ["Next.js", "OpenAI API", "Tailwind CSS", "PostgreSQL"],
       "description": "Developed an AI application that transforms PDFs into interactive knowledge hubs using LLMs for smart summarization and query-based note-taking. Featured cross-platform synchronization.",
-      "github": "https://github.com/anony43ctrl/note-minds"
+      "github": "https://github.com/anony43ctrl/SmartScribe"
     },
     {
       "title": "Life Monitor",

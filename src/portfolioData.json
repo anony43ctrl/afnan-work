@@ -61,7 +61,7 @@
       "title": "Note-Minds: AI-Powered SaaS",
       "tech": ["Next.js", "OpenAI API", "Tailwind CSS", "PostgreSQL"],
       "description": "An AI-powered application that transforms PDFs into interactive knowledge hubs using LLMs for smart summarization and query-based note-taking.",
-      "github": "https://github.com/yourusername/note-minds"
+      "github": "https://github.com/anony43ctrl/SmartScribe"
     },
     {
       "title": "Life Monitor",
