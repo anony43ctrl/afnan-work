@@ -32,7 +32,7 @@ import {
 // --- EMBEDDED DATA ---
 const portfolioData = {
   "profile": {
-    "name": "Afnan Shaik Javeed",
+    "name": "Afnan Javeed",
     "title": "Software Engineer | Full-Stack & ML Specialist",
     "tagline": "Building scalable enterprise solutions and clinically interpretable AI for a smarter tomorrow.",
     "location": "Chennai, Tamil Nadu, India",
@@ -101,17 +101,20 @@ const portfolioData = {
     {
       "title": "Note-Minds: AI-Powered SaaS",
       "tech": ["Next.js", "OpenAI API", "Tailwind CSS", "PostgreSQL"],
-      "description": "Developed an AI application that transforms PDFs into interactive knowledge hubs using LLMs for smart summarization and query-based note-taking. Featured cross-platform synchronization."
+      "description": "Developed an AI application that transforms PDFs into interactive knowledge hubs using LLMs for smart summarization and query-based note-taking. Featured cross-platform synchronization.",
+      "github": "https://github.com/anony43ctrl/SmartScribe"
     },
     {
       "title": "Life Monitor",
       "tech": ["Django", "JavaScript", "SQLite", "Analytics"],
-      "description": "A hybrid cross-platform application for tracking habits and managing tasks. Features a central dashboard with interactive analytics powered by custom visualization charts."
+      "description": "A hybrid cross-platform application for tracking habits and managing tasks. Features a central dashboard with interactive analytics powered by custom visualization charts.",
+      "github": "https://github.com/anony43ctrl/LifeMonitor"
     },
     {
       "title": "BuyBuddy",
       "tech": ["Java", "Spring Boot", "React.js", "MySQL"],
-      "description": "A full-stack retail application with secure user authentication, product management, and payment integration. Optimized for responsive user interfaces and secure CRUD operations."
+      "description": "A full-stack retail application with secure user authentication, product management, and payment integration. Optimized for responsive user interfaces and secure CRUD operations.",
+      "github": "https://github.com/anony43ctrl/BuyBuddy"
     }
   ],
   "skills": {
@@ -125,7 +128,7 @@ const portfolioData = {
       "title": "Multi-Task Graph Attention Network (GAT) with Swin Transformer Embeddings",
       "journal": "IEEE Publication",
       "year": "2025",
-      "authors": "Afnan Shaik Javeed, et al."
+      "authors": "Afnan Javeed, et al."
     }
   ],
   "awards": [
@@ -295,8 +298,13 @@ const ExperienceCard = ({ role, company, location, period, description }) => (
   </div>
 );
 
-const ProjectCard = ({ title, tech, description }) => (
-  <div className="group relative bg-white dark:bg-slate-800 rounded-2xl p-1 border border-slate-200 dark:border-slate-700/80 hover:border-indigo-500/30 dark:hover:border-indigo-500/50 transition-all duration-300 hover:shadow-xl hover:-translate-y-1 h-full flex flex-col overflow-hidden active:scale-[0.98] md:active:scale-100">
+const ProjectCard = ({ title, tech, description, github }) => (
+  <a
+    href={github}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="group relative bg-white dark:bg-slate-800 rounded-2xl p-1 border border-slate-200 dark:border-slate-700/80 hover:border-indigo-500/30 dark:hover:border-indigo-500/50 transition-all duration-300 hover:shadow-xl hover:-translate-y-1 h-full flex flex-col overflow-hidden active:scale-[0.98] md:active:scale-100"
+  >
     <div className="absolute inset-0 bg-gradient-to-br from-indigo-500/5 to-purple-500/5 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity"></div>
     
     <div className="relative p-6 flex flex-col h-full z-10">
@@ -304,7 +312,7 @@ const ProjectCard = ({ title, tech, description }) => (
         <div className="p-3 bg-indigo-50 dark:bg-indigo-500/10 rounded-xl text-indigo-600 dark:text-indigo-400 ring-1 ring-indigo-100 dark:ring-indigo-500/20">
           <Code size={24} />
         </div>
-        <ExternalLink size={18} className="text-slate-400 hover:text-indigo-500 cursor-pointer transition-colors p-1" />
+        <ExternalLink size={18} className="text-slate-400 group-hover:text-indigo-500 transition-colors p-1" />
       </div>
       
       <h3 className="text-lg font-bold text-slate-900 dark:text-white mb-3 leading-tight group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors">
@@ -321,7 +329,7 @@ const ProjectCard = ({ title, tech, description }) => (
         ))}
       </div>
     </div>
-  </div>
+  </a>
 );
 
 const PublicationItem = ({ title, journal, year, authors }) => (
@@ -597,7 +605,7 @@ const App = () => {
                    <div className="flex-grow font-mono text-[11px] sm:text-[13px] leading-6 font-medium overflow-x-auto">
                      {[
                        { num: 1, content: null },
-                       { num: 2, content: <div className="flex"><span className="text-rose-600 dark:text-rose-400 font-bold mr-2">public class</span><span className="text-amber-600 dark:text-amber-400 font-bold">AfnanJaveed</span> &#123;</div> },
+                       { num: 2, content: <div className="flex"><span className="text-rose-600 dark:text-rose-400 font-bold mr-2">public class</span><span className="text-amber-600 dark:text-amber-400 font-bold">Afnan Javeed</span> &#123;</div> },
                        { num: 3, content: <div className="pl-4 flex"><span className="text-rose-600 dark:text-rose-400 font-bold mr-2">private</span><span className="text-teal-600 dark:text-teal-400 font-bold">Stack</span> skills;</div> },
                        { num: 4, content: <div className="pl-4 text-slate-700 dark:text-slate-300">this.name = <span className="text-emerald-600 dark:text-emerald-400">"{portfolioData.profile.name}"</span>;</div> },
                        { num: 5, content: <div className="pl-4 text-slate-700 dark:text-slate-300">this.focus = [<span className="text-emerald-600 dark:text-emerald-400">"SpringBoot"</span>, <span className="text-emerald-600 dark:text-emerald-400">"AI Diagnostics"</span>];</div> },
@@ -666,18 +674,18 @@ const App = () => {
           </div>
         </section>
 
-        <section id="projects" className="scroll-mt-28 md:scroll-mt-32">
-          <SectionTitle 
-            icon={Code} 
-            title="Personal Projects" 
-            subtitle="Full-stack builds and AI applications serving real-world use cases."
-          />
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
-            {portfolioData.projects.map((project, index) => (
-              <ProjectCard key={index} {...project} />
-            ))}
-          </div>
-        </section>
+       <section id="projects" className="scroll-mt-28 md:scroll-mt-32">
+            <SectionTitle 
+              icon={Code} 
+              title="Personal Projects" 
+              subtitle="Full-stack builds and AI applications serving real-world use cases."
+            />
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+              {portfolioData.projects.map((project, index) => (
+                <ProjectCard key={index} {...project} />
+              ))}
+            </div>
+          </section>
 
         <section id="research" className="scroll-mt-28 md:scroll-mt-32">
           <SectionTitle 
@@ -788,7 +796,7 @@ const App = () => {
         <div className="max-w-7xl mx-auto px-6 relative z-10">
           <div className="flex flex-col md:flex-row justify-between items-center gap-8">
             <div className="text-center md:text-left space-y-2">
-              <h3 className="font-bold text-2xl tracking-tight text-slate-900 dark:text-white">Afnan Shaik Javeed</h3>
+              <h3 className="font-bold text-2xl tracking-tight text-slate-900 dark:text-white">Afnan Javeed</h3>
               <p className="text-slate-500 dark:text-slate-400 text-sm max-w-xs leading-relaxed">
                 Engineering software with a focus on enterprise scalability and clinical AI transparency.
               </p>
@@ -812,7 +820,7 @@ const App = () => {
           </div>
           
           <div className="mt-12 pt-8 border-t border-slate-100 dark:border-slate-900 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-slate-400">
-            <p>© {new Date().getFullYear()} Afnan Shaik Javeed. All Rights Reserved.</p>
+            <p>© {new Date().getFullYear()} Afnan  Javeed. All Rights Reserved.</p>
             <p className="flex items-center gap-2">
               Designed with <span className="text-red-500">♥</span> and React
             </p>

@@ -60,17 +60,20 @@
     {
       "title": "Note-Minds: AI-Powered SaaS",
       "tech": ["Next.js", "OpenAI API", "Tailwind CSS", "PostgreSQL"],
-      "description": "An AI-powered application that transforms PDFs into interactive knowledge hubs using LLMs for smart summarization and query-based note-taking."
+      "description": "An AI-powered application that transforms PDFs into interactive knowledge hubs using LLMs for smart summarization and query-based note-taking.",
+      "github": "https://github.com/anony43ctrl/SmartScribe"
     },
     {
       "title": "Life Monitor",
       "tech": ["Django", "JavaScript", "SQLite", "Analytics"],
-      "description": "A hybrid cross-platform application for habit tracking and task management, featuring a central dashboard with interactive data visualization charts."
+      "description": "A hybrid cross-platform application for habit tracking and task management, featuring a central dashboard with interactive data visualization charts.",
+      "github": "https://github.com/yourusername/note-minds"
     },
     {
       "title": "BuyBuddy",
       "tech": ["Spring Boot", "React.js", "MySQL", "Java"],
-      "description": "A comprehensive retail shopping application with secure user authentication, product management, and order tracking workflows."
+      "description": "A comprehensive retail shopping application with secure user authentication, product management, and order tracking workflows.",
+      "github": "https://github.com/yourusername/note-minds"
     }
   ],
   "skills": {

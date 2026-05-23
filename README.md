@@ -1,6 +1,6 @@
-# Afnan Shaik Javeed – Work Portfolio
+# Afnan Javeed – Work Portfolio
 
-A modern, high-performance personal portfolio website built with **React 19**, **Vite**, and **Tailwind CSS 4.0**. This repository showcases the software engineering journey, full-stack projects, and machine learning research of **Afnan Shaik Javeed**.
+A modern, high-performance personal portfolio website built with **React 19**, **Vite**, and **Tailwind CSS 4.0**. This repository showcases the software engineering journey, full-stack projects, and machine learning research of **Afnan Javeed**.
 
 ---
 
