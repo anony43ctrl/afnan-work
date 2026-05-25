@@ -421,7 +421,7 @@ const App = () => {
       setIsMenuOpen(false);
     }
   };
-
+  
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
@@ -738,19 +738,16 @@ const App = () => {
                  <div className="absolute top-0 right-0 w-32 h-32 bg-emerald-500/5 rounded-full blur-3xl group-hover:bg-emerald-500/10 transition-colors"></div>
                  <h3 className="text-lg md:text-xl font-bold text-slate-900 dark:text-white mb-2">{edu.degree}</h3>
                  <p className="text-emerald-600 dark:text-emerald-400 font-medium mb-1 text-sm md:text-base">{edu.institution}</p>
-                 <p className="text-slate-500 dark:text-slate-400 text-sm mb-6 flex items-center gap-2">
-                    <span className="w-1.5 h-1.5 rounded-full bg-slate-300 dark:bg-slate-600"></span>
-                    {edu.period} 
-                    <span className="w-1.5 h-1.5 rounded-full bg-slate-300 dark:bg-slate-600"></span>
-                    {edu.grade}
+                 <p className="text-slate-500 dark:text-slate-400 text-sm mb-6 space-y-2">
+                   <span className="inline-flex items-center gap-2">
+                     <span className="w-1.5 h-1.5 rounded-full bg-slate-300 dark:bg-slate-600"></span>
+                     {edu.period}
+                   </span><br></br>
+                   <span className="inline-flex items-center gap-2">
+                     <span className="w-1.5 h-1.5 rounded-full bg-slate-300 dark:bg-slate-600"></span>
+                     {edu.grade}
+                   </span>
                  </p>
-                 
-                 <div className="p-4 md:p-5 bg-emerald-50/50 dark:bg-emerald-900/10 rounded-2xl border border-emerald-100 dark:border-emerald-800/30">
-                    <p className="text-sm text-slate-700 dark:text-slate-300 italic leading-relaxed">
-                      <span className="font-semibold not-italic text-emerald-700 dark:text-emerald-400 block mb-1">Background:</span>
-                      "{edu.thesis}"
-                    </p>
-                 </div>
                </div>
              ))}
           </div>
